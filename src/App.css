@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(77, 67, 67);
+}
+.app {
+  min-height: 90vh;
+  width: 500px;
+  background-color: rgb(145, 133, 118);
+  margin: 30px auto;
+}
+h1 {
+  margin-top: 40px;
+  font-size: 40px;
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+.btn {
+  margin-top: 30px;
+padding: 10px;
+border: none;
+width: 40%;
+color: rgb(8, 196, 8);
+font-size: 20px;
+font-weight: 700;
+border-radius: 10px;
+letter-spacing: 1px;
+}
+.btn-delete {
+  color: red;
+}
+input {
+  width: 400px;
+  padding: 8px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+li {
+  font-size: 22px;
+  font-weight: 500;
+}
+.crossed {
+  text-decoration: line-through 3px red;
+  background-color: rgb(77, 67, 67);
+}
